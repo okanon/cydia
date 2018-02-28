@@ -1,0 +1,8 @@
+Origin: Okanon iOS Utilities 
+Label: okanon 
+Suite: stable 
+Version: 1.0 
+Codename: tangelo 
+Architectures: iphoneos-arm 
+Components: main 
+Description: okanon's ios utilities repository ;) 
