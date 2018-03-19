@@ -220,6 +220,19 @@ color: #bb0000;
 		font-family: -apple-system-font, 'Helvetica Neue', Helvetica, Arial;
 		line-height: 1.3em;
 		width: 100%;
+		max-width: 480px;
+		margin: 0 auto;
+		padding: 0;
+		background: #efeff4;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	body {
+		font-family: -apple-system-font, 'Helvetica Neue', Helvetica, Arial;
+		line-height: 1.3em;
+		width: 100%;
+		max-width: 414px;
 		margin: 0 auto;
 		padding: 0;
 		background: #efeff4;
