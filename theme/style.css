@@ -202,28 +202,40 @@ input[type="text"], input[type="password"] {
 color: #bb0000;
 }
 
-block, fieldset.repo {
-	border-top: 1px solid #c8c7cc;
-	background-color: transparent;
-	border: none;
-	margin: -4px 10px -14px 10px;
-}
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 736px) {
 	
 	body {
 		font-family: -apple-system-font, 'Helvetica Neue', Helvetica, Arial;
 		line-height: 1.3em;
 		width: 100%;
-		max-width: 480px;
+		max-width: 736px;
 		margin: 0 auto;
 		padding: 0;
 		background: #efeff4;
 	}
+}
 
-	block, fieldset.repo {
-		border-top: 1px solid #c8c7cc;
-		margin: -4px 40px -14px 40px;
+@media only screen and (max-width: 480px) {
+	body {
+		font-family: -apple-system-font, 'Helvetica Neue', Helvetica, Arial;
+		line-height: 1.3em;
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		background: #efeff4;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	
+	body {
+		font-family: -apple-system-font, 'Helvetica Neue', Helvetica, Arial;
+		line-height: 1.3em;
+		width: 100%;
+		max-width: 375px;
+		margin: 0 auto;
+		padding: 0;
+		background: #efeff4;
 	}
 }
 
