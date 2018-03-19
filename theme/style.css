@@ -214,7 +214,7 @@ color: #bb0000;
 		background: #efeff4;
 	}
 
-	fieldset > a {
+	label {
 		font-size: 14px;
 	}
 }
