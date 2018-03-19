@@ -201,3 +201,39 @@ input[type="text"], input[type="password"] {
 .failure {
 color: #bb0000;
 }
+
+fieldset.repo {
+	background-color: transparent;
+	border: none;
+	margin: -4px 10px -14px 10px;
+}
+
+@media only screen and (max-width: 480px) {
+	
+	body {
+		font-family: -apple-system-font, 'Helvetica Neue', Helvetica, Arial;
+		line-height: 1.3em;
+		width: 100%;
+		max-width: 480px;
+		margin: 0 auto;
+		padding: 0;
+		background: #efeff4;
+	}
+
+	fieldset.repo {
+		margin: -4px 40px -14px 40px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	
+	body {
+		font-family: -apple-system-font, 'Helvetica Neue', Helvetica, Arial;
+		line-height: 1.3em;
+		width: 100%;
+		max-width: 320px;
+		margin: 0 auto;
+		padding: 0;
+		background: #efeff4;
+	}
+}
