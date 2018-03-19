@@ -213,6 +213,13 @@ color: #bb0000;
 		padding: 0;
 		background: #efeff4;
 	}
+
+	fieldset > a {
+		background-repeat: no-repeat;
+		background-image: url(../icons/cydia/chevron.png);
+		background-size: 12px;
+		background-position: right center;
+	}
 }
 
 @media only screen and (max-width: 480px) {
