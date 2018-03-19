@@ -3,7 +3,7 @@
 	<head>
    		<title>Okanon's iOS Utilities</title>
    		<base target="_top">
-   		<link rel="stylesheet" type="text/css" href="../theme/style.css">
+   		<link rel="stylesheet" type="text/css" href="theme/style.css">
    		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
    		<link rel="shortcut icon" href="https://raw.githubusercontent.com/okanon/cydia/master/favicon.ico" type="image/vnd.microsoft.icon">
    	</head>
@@ -11,7 +11,7 @@
    		<panel>
    			<fieldset style="background-color: #38b48b">
    				<a href="?">
-   					<img class="icon" src="../CydiaIcon.png">
+   					<img class="icon" src="CydiaIcon.png">
    					<div>
    						<label>Okanon's iOS Utilities</label>
    					</div>
@@ -25,32 +25,32 @@
                         <a class="panel" href="http://okanon.github.io/cydia/">Okanon</a>   
                      </span>
                   </div>
-                  <img src="../CydiaIcon.png" style="vertical-align: middle" width="59" height="60" />
+                  <img src="CydiaIcon.png" style="vertical-align: middle" width="59" height="60" />
                </fieldset>
                <block>
                   <p>This repo is Okanon's iOS Utils</p>
                </block>
                <fieldset>
                   <a href="csources2://addsource?address=http://okanon/github.io/cydia/">
-                     <img class="icon" src="../icons/cydia/cydia.png" />
+                     <img class="icon" src="icons/cydia/cydia.png" />
                      <div>
                         <label>Cydia</label>
                      </div>
                   </a>
                   <a href="https://twitter.com/@xlyr_cs">
-                     <img class="icon" src="../icons/twitter.png" />
+                     <img class="icon" src="icons/twitter.png" />
                      <div>
                         <label>Twitter</label>
                      </div>
                   </a>
                   <a href="https://github.com/okanon">
-                     <img class="icon" src="../icons/github.png" />
+                     <img class="icon" src="icons/github.png" />
                      <div>
                         <label>Github</label>
                      </div>
                   </a>
                   <a href="mailto:flat.cydia37jins.pc&#64;gmail.com">
-                     <img class="icon" src="../icons/gmail.png" />
+                     <img class="icon" src="icons/gmail.png" />
                      <div>
                         <label>Gmail</label>
                      </div>
@@ -62,53 +62,53 @@
                <label>Tweaks</label>
                <fieldset>
                   <a href="documents/?page/io.okanon.cylinderefect">
-                     <img class="icon" src="../icons/cydia/Sections/Tweaks.png" />
+                     <img class="icon" src="icons/cydia/Sections/Tweaks.png" />
                      <label>CylinderEffect+</label>
                   </a>
                </fieldset>
                <label>System</label>
                <fieldset>
                   <a href="documents/?page/io.okanon.zsh">
-                     <img class="icon" src="../icons/cydia/Sections/System.png" />
+                     <img class="icon" src="icons/cydia/Sections/System.png" />
                      <label>zsh</label>
                   </a>
                </fieldset>
                <label>Apps/Utilities</label>
                <fieldset>
                   <a href="documents/?page/io.okanon.clear">
-                     <img class="icon" src="../icons/cydia/Sections/Utilities.png" />
+                     <img class="icon" src="icons/cydia/Sections/Utilities.png" />
                      <label>clear</label>
                   </a>
                   <a href="documents/?page/io.okanon.xterm256">
-                     <img class="icon" src="../icons/cydia/Sections/Utilities.png" />
+                     <img class="icon" src="icons/cydia/Sections/Utilities.png" />
                      <label>xterm-256color</label>
                   </a>
                </fieldset>
                <label>Networking</label>
                <fieldset>
                   <a href="documents/?page/io.okanon.wget">
-                     <img class="icon" src="../icons/cydia/Sections/Networking.png" />
+                     <img class="icon" src="icons/cydia/Sections/Networking.png" />
                      <label>Wget</label>
                   </a>
                </fieldset>
                <label>Text Editor</label>
                <fieldset>
                   <a href="documents/?page/io.okanon.vim">
-                     <img class="icon" src="../icons/cydia/Sections/Text_Editors.png" />
+                     <img class="icon" src="icons/cydia/Sections/Text_Editors.png" />
                      <label>Vim</label>
                   </a>
                </fieldset>
                <label>Development Libraries</label>
                <fieldset>
                   <a href="documents/?page/io.okanon.thrift">
-                     <img class="icon" src="../icons/cydia/Sections/Development.png" />
+                     <img class="icon" src="icons/cydia/Sections/Development.png" />
                      <label>libthrift</label>
                   </a>
                </fieldset>
                <label>Security Libraries</label>
                <fieldset>
                   <a href="documents/?page/io.okanon.libssl">
-                     <img class="icon" src="../icons/cydia/Sections/Security.png" />
+                     <img class="icon" src="icons/cydia/Sections/Security.png" />
                      <label>libssl</label>
                   </a>
                </fieldset>
