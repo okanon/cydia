@@ -214,11 +214,8 @@ color: #bb0000;
 		background: #efeff4;
 	}
 
-	fieldset > a {
-		background-repeat: no-repeat;
-		background-image: url(../icons/cydia/chevron.png);
-		background-size: 12px;
-		background-position: right center;
+	label {
+		font-size: 14px;
 	}
 }
 
