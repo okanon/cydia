@@ -30,7 +30,7 @@ body {
 
 @media only screen and (max-width: 736px) { /* iphone6plus/7plus/8plus side length */
 	body {
-		max-width: 736px;
+		max-width: 480px;
 	}
 
 	fieldset.test {
@@ -52,7 +52,7 @@ body {
 	-ms-border-radius: 0;
 	-o-border-radius: 0;
 	font-family: inherit;
-	/* font-size: 100%; */
+	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
 	line-height: inherit;
