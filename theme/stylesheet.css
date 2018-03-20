@@ -14,33 +14,17 @@ body {
 	body {
 		max-width: 320px;
 	}
-
-	* {
-		font-size: 100%;
-	}
 }
 
 @media only screen and (max-width: 375px) { /* iphone6/7/8/X length */
 	body {
 		max-width: 375px;
 	}
-
-	* {
-		font-size: 100%;
-	}
 }
 
 @media only screen and (max-width: 414px) { /* iphone6plus/7plus/8plus length */
 	body {
 		max-width: 414px;
-	}
-
-	* {
-		font-size: 100%;
-	}
-
-	p {
-		font-size: 100%;
 	}
 }
 
@@ -49,8 +33,15 @@ body {
 		max-width: 736px;
 	}
 
-	p {
-		font-size: 10px;
+	fieldset {
+	    display: block;
+	    -webkit-margin-start: 2px;
+	    -webkit-margin-end: 2px;
+	    -webkit-padding-before: 0.35em;
+	    -webkit-padding-start: 0.75em;
+	    -webkit-padding-end: 0.75em;
+	    -webkit-padding-after: 0.625em;
+	    min-width: -webkit-min-content;
 	}
 }
 
