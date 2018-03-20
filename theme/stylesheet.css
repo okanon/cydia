@@ -48,7 +48,7 @@ body {
 
 @media only screen and (max-width: 736px) { /* iphone6plus/7plus/8plus side length */
 	body {
-		max-width: 736px;
+		max-width: 600px;
 	}
 }
 
@@ -134,7 +134,7 @@ fieldset > a {
 
 fieldset > a {
 	background-repeat: no-repeat;
-	background-image: url(/theme/jonyive/resources/chevron.png);
+	background-image: url(../icons/cydia/chevron.png);
 	background-size: 22px 12px;
 	background-position: right center;
 }
