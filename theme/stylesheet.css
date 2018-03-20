@@ -42,15 +42,11 @@ body {
 
 @media only screen and (max-width: 736px) { /* iphone6plus/7plus/8plus side length */
 	body {
-		max-width: 800px;
+		max-width: 736px;
 	}
 
 	p {
-	    display: block;
-	    -webkit-margin-before: 1em;
-	    -webkit-margin-after: 1em;
-	    -webkit-margin-start: 0px;
-	    -webkit-margin-end: 0px;
+		font-size: 14px;
 	}
 }
 
@@ -83,7 +79,6 @@ strong {
 
 p {
 	margin: 5px 0;
-	font-size: 16px;
 }
 
 em {
