@@ -33,7 +33,7 @@ body {
 		max-width: 736px;
 	}
 
-	fieldset {
+	fieldset.test {
 	    display: block;
 	    -webkit-margin-start: 2px;
 	    -webkit-margin-end: 2px;
