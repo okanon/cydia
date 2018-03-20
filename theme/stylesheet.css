@@ -45,8 +45,12 @@ body {
 		max-width: 800px;
 	}
 
-	* {
-		font-size: 16px;
+	p {
+	    display: block;
+	    -webkit-margin-before: 1em;
+	    -webkit-margin-after: 1em;
+	    -webkit-margin-start: 0px;
+	    -webkit-margin-end: 0px;
 	}
 }
 
@@ -79,6 +83,7 @@ strong {
 
 p {
 	margin: 5px 0;
+	font-size: 16px;
 }
 
 em {
