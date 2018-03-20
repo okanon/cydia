@@ -48,7 +48,7 @@ body {
 
 @media only screen and (max-width: 736px) { /* iphone6plus/7plus/8plus side length */
 	body {
-		max-width: 736px;
+		max-width: 480px;
 	}
 }
 
