@@ -1,1 +1,0 @@
-../vendor/nic/bin/nic.pl

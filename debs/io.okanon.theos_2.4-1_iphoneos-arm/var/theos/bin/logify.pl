@@ -1,1 +1,0 @@
-../vendor/logos/bin/logify.pl
