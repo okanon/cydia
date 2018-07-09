@@ -1,0 +1,14 @@
+Package: io.okanon.theos
+Name: Theos
+Depends: perl, git, org.coolstar.iostoolchain, io.okanon.iphoneossdk
+Depiction: https://okanon.github.io/cydia/documents/theos/
+Architecture: iphoneos-arm
+Description: A cross-platform build system for creating iOS, macOS, Linux, and Windows programs.
+Maintainer: okanon <flat.cydia37jins.pc@gmail.com>  
+Dev: okanon 
+Author: okanon <flat.cydia37jins.pc@gmail.com> 
+Section: Development 
+Homepage: https://twitter.com/@cxx_flags
+Priority: optional
+Version: 2.4-1
+

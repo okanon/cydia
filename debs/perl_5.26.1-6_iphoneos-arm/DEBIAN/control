@@ -1,0 +1,14 @@
+Package: perl
+Name: Perl
+Homepage: https://twitter.com/@cxx_flags
+Depends: firmware (>= 3.0)
+Architecture: iphoneos-arm
+Description: Perl. arm64 device supported! 
+Maintainer: okanon <flat.cydia37jins.pc@gmail.com>
+Dev: okanon
+Author: okanon <flat.cydia37jins.pc@gmail.com>
+Section: Development
+Depiction: https://okanon.github.io/cydia/documents/perl/ 
+Version: 5.26.1-6
+Installed-Size: 117240
+
