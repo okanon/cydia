@@ -1,8 +1,8 @@
-Origin: okanon's repository
+Origin: okanon's legacy repository
 Label: okanon  
 Suite: stable 
 Version: 1.0 
 Codename: kar98k
 Architectures: iphoneos-arm 
 Components: main 
-Description: okanon's ios utilities stable repository ;) 
+Description: okanon's ios utilities legacy repository ;) 
