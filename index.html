@@ -1,125 +1,40 @@
 <!DOCTYPE html>
 <html>
-	<head>
+   <head>
       <meta charset="utf-8">
-      <title>Okanon's iOS Utilities</title>
-      <base target="_top">
-      <link rel="stylesheet" type="text/css" href="theme/stylesheet.css">
-      <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-      <link rel="shortcut icon" href="https://raw.githubusercontent.com/okanon/cydia/master/favicon.ico" type="image/vnd.microsoft.icon">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="description" content="okanon's repo, created by okanon">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Repo</title>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/syntax.css">
+      <link rel="stylesheet" href="css/solo.css">
    </head>
-	<body class="iOS">
-   		<panel>
-   			<fieldset style="background-color: #FFD8F0">
-   				<a href="?">
-   					<img class="icon" src="CydiaIcon.png">
-   					<div>
-   						<label>Okanon's iOS Utilities</label>
-   					</div>
-   				</a>
-   			</fieldset>
-            <panel>
-               <fieldset style="background-color: transparent; border: none; margin: -4px 10px -14px 10px">
-                  <div style="float: right; margin-top: 7px; text-align: center; width: 200px">
-                     <span style="font-size: 20px" id="welcome">Okanon's iOS Utilities</span><br/>
-                     <span style="font-size: 17px" id="by">
-                        <a class="panel" href="https://okanon.github.io/cydia/">Okanon</a>   
-                     </span>
-                  </div>
-                  <img src="CydiaIcon.png" style="vertical-align: middle" width="60" height="60" />
-               </fieldset>
-               <block>
-                  <p>This repo is Okanon's iOS Utils</p>
-               </block>
-               <fieldset>
-                  <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://okanon.github.io/cydia/stable">
-                     <img class="icon" src="icons/cydia/cydia.png" />
-                     <div>
-                        <label>Cydia</label>
-                     </div>
-                  </a>
-                  <a href="https://twitter.com/@xlyr_cs">
-                     <img class="icon" src="icons/twitter.png" />
-                     <div>
-                        <label>Twitter</label>
-                     </div>
-                  </a>
-                  <a href="https://github.com/okanon">
-                     <img class="icon" src="icons/github.png" />
-                     <div>
-                        <label>Github</label>
-                     </div>
-                  </a>
-                  <a href="mailto:flat.cydia37jins.pc&#64;gmail.com">
-                     <img class="icon" src="icons/gmail.png" />
-                     <div>
-                        <label>Gmail</label>
-                     </div>
-                  </a>
-               </fieldset>
-               <block>
-                  <p>Mainly release libraries for development of arm64 devices, Tweak etc. Some Tweaks work with Electra (iOS 11.0 - 11.1.2).</p>
-               </block>
-               <label>Tweaks</label>
-               <fieldset>
-                  <a href="https://okanon.github.io/cydia/documents/cylindereffect/">
-                     <img class="icon" src="icons/cydia/Sections/Tweaks.png" />
-                     <label>CylinderEffect+</label>
-                  </a>
-               </fieldset>
-               <label>System</label>
-               <fieldset>
-                  <a href="https://okanon.github.io/cydia/documents/zsh/">
-                     <img class="icon" src="icons/cydia/Sections/System.png" />
-                     <label>zsh</label>
-                  </a>
-               </fieldset>
-               <label>Apps/Utilities</label>
-               <fieldset>
-                  <a href="https://okanon.github.io/cydia/documents/clear/">
-                     <img class="icon" src="icons/cydia/Sections/Utilities.png" />
-                     <label>clear</label>
-                  </a>
-                  <a href="https://okanon.github.io/cydia/documents/xterm256/">
-                     <img class="icon" src="icons/cydia/Sections/Utilities.png" />
-                     <label>xterm-256color</label>
-                  </a>
-               </fieldset>
-               <label>Networking</label>
-               <fieldset>
-                  <a href="https://okanon.github.io/cydia/documents/wget/">
-                     <img class="icon" src="icons/cydia/Sections/Networking.png" />
-                     <label>Wget</label>
-                  </a>
-               </fieldset>
-               <label>Text Editor</label>
-               <fieldset>
-                  <a href="https://okanon.github.io/cydia/documents/vim/">
-                     <img class="icon" src="icons/cydia/Sections/Text_Editors.png" />
-                     <label>Vim</label>
-                  </a>
-               </fieldset>
-               <label>Development Libraries</label>
-               <fieldset>
-                  <a href="https://okanon.github.io/cydia/documents/libthrift/">
-                     <img class="icon" src="icons/cydia/Sections/Development.png" />
-                     <label>libthrift</label>
-                  </a>
-               </fieldset>
-               <label>Security Libraries</label>
-               <fieldset>
-                  <a href="https://okanon.github.io/cydia/documents/libssl/">
-                     <img class="icon" src="icons/cydia/Sections/Security.png" />
-                     <label>libssl</label>
-                  </a>
-               </fieldset>
-            </panel>
-            <fieldset class="footer">
-               <label>
-                  Copyright &copy; 2017-2018 Okanon,<br>
-                  All Rights Reserved.
-               </label>
-            </fieldset>
-   		</panel>
-	</body>
+   <body>
+      <div class="container">
+         <h1><a href="./">okanon's repo</a></h1>
+         <h2 id="this-a-package-repo">This is a cydia repository.</h2>
+         <p><a href="https://travis-ci.org/danog/repo"><img src="https://travis-ci.org/danog/repo.svg?branch=master" alt="Build Status" /></a>
+         </p>
+			<br/>
+         <p>To add it to your iPhone, execute this command on the Terminal App.</p>
+         <div class="highlighter-rouge">
+            <pre class="highlight"><code>curl -fsSL https://okanon.github.io/cydia/gpg | sudo apt-key add - &amp;&amp; sudo apt update
+</code></pre>
+         </div>
+			<br/><br/>
+         <p>If you need &quot;stable&quot; repository add the following url to Cydia</p>
+         <div class="highlighter-rouge">
+            <pre class="highlight"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://okanon.github.io/cydia/stable"><code>https://okanon.github.io/cydia/stable
+</code></a></pre>
+         </div>
+         <p>If you need &quot;legacy&quot; repository add the following url to Cydia.</p>
+         <div class="highlighter-rouge">
+            <pre class="highlight"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://okanon.github.io/cydia/legacy"><code>https://okanon.github.io/cydia/legacy
+</code></a></pre>
+         </div>
+         <p><a href="tree.html">Directory tree</a></p>
+         <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/okanon">My other projects</a></p>
+      </div>
+   </body>
 </html>
