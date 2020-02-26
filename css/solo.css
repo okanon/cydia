@@ -13,13 +13,25 @@ html {
 
 body {
    margin: 2rem 0 5rem;
-   color: #333
+   color: #333;
+   animation: fadeIn 1.4s ease 0s 1 normal;
+   -webkit-animation: fadeIn 1.4s ease 0s 1 normal;
 }
 
 @media(min-width:30rem) {
    body {
       margin-top: 5rem
    }
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
 }
 
 a {
