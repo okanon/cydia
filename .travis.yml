@@ -1,0 +1,7 @@
+os: linux
+language: bash
+
+sudo: required
+
+script:
+   - curl -fsSL https://okanon.github.io/cydia/gpg | sudo apt-key add -
