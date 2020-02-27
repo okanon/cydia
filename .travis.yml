@@ -2,4 +2,4 @@ os: linux
 language: bash
 
 script:
-   - gpg --import gpg
+   - gpg --allow-non-selfsigned-uid --import gpg
