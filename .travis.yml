@@ -2,4 +2,4 @@ os: linux
 language: bash
 
 script:
-   - sudo apt-key adv --allow-non-selfsigned-uid --keyserver keyserver.ubuntu.com --recv-keys 093B7B25842DD9A3
+   - sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys AE3E24235EDF24D9
